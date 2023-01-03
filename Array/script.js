@@ -1,5 +1,13 @@
-let nomes = [10, 9, 8];
+let ingredientes = [
+    'agua',
+    'farinha',
+    'ovo',
+    'corante',
+    'salt'
+];
 
-let lista = ['paulo', 'vini', nomes];
+ingredientes.shift(); // tira o primeiro item da array
 
-console.log(lista)
+ingredientes.push(); // tira o ultimo item da array
+
+console.log(`Total de ingredientes: ${ingredientes.length}`);
