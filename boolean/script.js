@@ -33,3 +33,4 @@ if (preco <= 45) {
 } else {
     console.log("A carne esta cara")
 }
+
