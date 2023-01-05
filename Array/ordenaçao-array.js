@@ -5,6 +5,6 @@ let cars = [
    
 ]
 
-cars.sort((a, b) => a.year - b.year);
+cars.sort((a, b) => b.year - b.year);
 
 console.log(cars)
