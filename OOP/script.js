@@ -1,22 +1,19 @@
 class Person {
-    
+   
     age = 0;
 
     constructor(name) {
         this.name = name;
     }
+
+}
+
+function createPerson(name, age) {
+    let p = newPerson(name);
+    p.age = age;
+    return p;
 }
 
 
-class Student extends Person {
+let p1 = createPerson('paulo', 90);
 
-    
-    constructor(name, id) {
-        super(name);
-        this.id = id;
-    }
-}
-
-let p1 = new Student("bonieky", 1);
-
-console.log(`${p1.name} tem ${p1.age} anos`);
